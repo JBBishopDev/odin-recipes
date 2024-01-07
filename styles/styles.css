@@ -3,26 +3,37 @@
     font-size: 24px;
     color:coral;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
+    margin-left: 35px;
+    display: inline;
+}
+
+.logo {
+    background-color: chocolate;
+}
+
+#logo {
+    margin-right: 75%;
+    display: inline;
+    border-radius: 70%;
+    margin-top: 20px;
 }
 
 #recipes {
     text-align: center;
     list-style-position: inside;
     padding-right: 5%;
+    display: inline;
 }
 
 li {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     font-size: 24px;
+    display:inline;
+    padding-left:15em;
 }
 .header.two {
     font-size: 20px;
-}
-
-.img {
-    text-align: center;
 }
 
 img {
