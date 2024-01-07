@@ -1,11 +1,22 @@
 .header{
     font-weight: 900;
     font-size: 24px;
-    color: blueviolet;
+    color:coral;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
+#recipes {
+    text-align: center;
+    list-style-position: inside;
+    padding-right: 5%;
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: 24px;
+}
 .header.two {
     font-size: 20px;
 }
@@ -14,6 +25,10 @@
     text-align: center;
 }
 
+img {
+    border: solid coral 5px;
+}
+
 body {
-    background-color: aquamarine;
+    background-color:bisque;
 }
