@@ -1,3 +1,7 @@
+*{
+    border: solid 2px red;
+}
+
 
 body {
     margin: 0;
@@ -45,12 +49,18 @@ a:link {
     text-decoration: none;
 }
 
-a:hover {
+a:active {
     text-decoration: none;
 }
 
-a:active {
+a:visited {
     text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    text-decoration: none;
+    color: brown;
 }
 
 p {
