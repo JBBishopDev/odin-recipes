@@ -1,39 +1,42 @@
 .header{
     font-weight: 900;
     font-size: 24px;
-    color:coral;
+    color: white;
+    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 35px;
-    display: inline;
+    padding: 2em;
+    background-color:chocolate;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.image{
+    text-align: center;
 }
 
 .logo {
     background-color: chocolate;
 }
 
-#logo {
-    margin-right: 75%;
-    display: inline;
-    border-radius: 70%;
-    margin-top: 20px;
+.container{
+    display: flex;
+    padding: 2em;
 }
 
-#recipes {
-    text-align: center;
-    list-style-position: inside;
-    padding-right: 5%;
-    display: inline;
+ul {
+    flex: 1;
+    padding: 20px;
+    background-color: coral;
 }
 
-li {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 400;
-    font-size: 24px;
-    display:inline;
-    padding-left:15em;
-}
-.header.two {
-    font-size: 20px;
+
+h2 {
+    flex: 1;
+    padding: 20px;
+    background-color: darkcyan;
 }
 
 img {
